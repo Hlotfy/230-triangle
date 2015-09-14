@@ -15,4 +15,8 @@ public class Triangle {
 	public int getArea() {
 		return 0.5(width*height);
 	}
+	//Return's width, height, or hypotenuse value
+	public int getSideLength(int side) {
+		return side;
+	}
 }
