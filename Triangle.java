@@ -1,6 +1,9 @@
 
 public class Triangle {
 
+	private int height;
+	private int width;
+	
 	//Returns Triangle's Height
 	public int getHeight() {
 		return height;
@@ -12,7 +15,7 @@ public class Triangle {
 	}
 
 	//Return's the area of the Triangle
-	public int getArea() {
-		return 0.5(width*height);
+	public double getArea() {
+		return 0.5*width*height;
 	}
 }
